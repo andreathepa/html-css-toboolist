@@ -5,8 +5,9 @@
  }
 
  header{
-    margin: 20px 10px;
-    width: auto;
+    background-color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
  }
 
  #main_title{
@@ -15,3 +16,99 @@
     font-weight: bold;
     vertical-align: 10px;
  }
+
+ /* add section */
+
+body{
+    background-color: grey;
+    font-family: sans-serif;
+}
+
+  .container{
+    width: 70%;
+    margin: 0 auto;
+ }
+
+ #container1{
+    margin-top: 30px;
+    height: 50px;
+    padding: 20px 30px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: white;
+}
+
+#add_t{
+    background-color: cornflowerblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+#add_s{
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+    color: lightgray;
+}
+
+/* add section done */
+
+#container2{
+    margin-top: 5px;
+    padding: 20px 30px;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.titles{
+    font-size: 30px;
+    font-weight: 20px;
+    font-family: sans-serif;
+}
+
+.bossitem{
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.subitem{
+    font-size: 15px;
+    font-weight: lighter;
+    list-style-type: none;
+    line-height: 3;
+}
+
+/* check, cross */
+
+.check{
+    border: 2px solid lightgreen;
+    border-radius: 50%;
+    padding: 0 3px;
+    color: lightgreen;
+}
+
+.cross{
+    border: 2px solid lightcoral;
+    border-radius: 50%;
+    padding: 0 3px;
+    color: lightcoral;
+}
+
+/* check, cross end */
+
+/* colored buttons */
+
+.edit{
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+    font-size: 9px;
+}
+
+
