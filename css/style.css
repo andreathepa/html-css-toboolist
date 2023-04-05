@@ -20,12 +20,12 @@
  /* add section */
 
 body{
-    background-color: rgb(238, 237, 237);
+    background-color: rgba(248, 248, 248, 0.973);
     font-family: sans-serif;
 }
 
   .container{
-    width: 40%;
+    width: 60%;
     margin: 0 auto;
  }
 
@@ -59,7 +59,7 @@ body{
 
 #container2{
     margin-top: 2px;
-    padding: 50px 30px;
+    padding: 40px 30px;
     background-color: white;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -71,6 +71,15 @@ body{
     font-family: sans-serif;
 }
 /* list */
+
+ul{
+    line-height: 30px;
+}
+
+li{
+    padding: 5px 5px;
+}
+
 .bossitem{
     font-size: 25px;
     font-weight: bold;
@@ -81,7 +90,6 @@ body{
     font-size: 15px;
     font-weight: lighter;
     list-style-type: none;
-    line-height: 3;
 }
 
 /* check, cross */
@@ -91,13 +99,15 @@ body{
     border-radius: 50%;
     padding: 0 3px;
     color: lightgreen;
+    margin-right: 10px;
 }
 
 .cross{
-    border: 2px solid lightcoral;
+    border: 2px solid rgb(255, 27, 27);
     border-radius: 50%;
     padding: 0 3px;
-    color: lightcoral;
+    color: rgb(255, 27, 27);
+    margin-right: 10px;
 }
 
 /* check, cross end */
